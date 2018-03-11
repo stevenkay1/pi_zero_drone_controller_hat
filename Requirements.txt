@@ -1,0 +1,36 @@
+Functional Requirements
+    - Drive (up to) 8 servos (ESCs) PWM at 50Hz
+    - Selectable Autohover / Distance Avoid intelligence
+    - Routable Sensors
+    - Comm over native Pi Interfaces
+        - SPI / I2C / Serial
+
+Physical
+    - Raspberry Pi Zero Form Factor 
+    - Stackable
+    - Right angled connectors
+
+Onboard Intelligence
+    + M0+ Microcontroller? 
+    REJ Arduino 32u?
+    + Selectable, on/off
+
+Sensor Package
+    NULL Onboard Magnetometer - HMC?
+    + Onboard Altimeter - MPL3115a2
+    + Onboard IMU - MPU-9250 
+
+Power Supply
+    + Default Power from Pi
+    + Option for powering Pi over BEC - Solder Jumper option
+    NULL 5V, 3.3V Regulation, Output
+ 
+Outputs
+    - Microcontroller Status LED
+    - Microcontroller Error LED
+    - Power LED
+
+- Sensor Interfaces
+    NULL SPI Fedout
+    + I2C Fedout
+    NULL Serial Fedout
